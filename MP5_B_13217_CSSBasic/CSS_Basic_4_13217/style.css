@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(135, 181, 234);
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(228, 232, 236);
+    padding: 20px 0;
+    margin: 0;
+}
+
+#mahasiswa p {
+    font-size: 18px;
+    color: rgb(112, 115, 118);
+    margin: 10px 0;
+}
+
+#mahasiswa img {
+    border: 5px solid rgb(88, 116, 148);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#mahasiswa a {
+    text-decoration: none;
+    color: rgb(164, 31, 106);
+    margin: 10px 0;
+}
