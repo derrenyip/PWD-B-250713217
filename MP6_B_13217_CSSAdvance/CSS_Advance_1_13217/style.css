@@ -1,0 +1,163 @@
+/* ===== Dasar halaman ===== */
+body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	color: #2b2b2b;
+	background-color: #e9eef3;
+	margin: 0;
+	padding: 30px 0;
+	text-align: center; /* centering metode 1 (auto margin) */
+}
+
+/* ===== Layout: wrapper di tengah dengan auto margin ===== */
+#wrapper {
+	width: 760px;
+	margin: 0 auto;
+	text-align: left;
+	background-color: #ffffff;
+	border: 1px solid #c5d0da;
+}
+
+/* ===== Header ===== */
+#branding {
+	padding: 24px 30px;
+	background-color: #1f4e79;
+	color: #ffffff;
+}
+
+#branding h1 {
+	margin: 0 0 6px 0;
+	font-size: 26px;
+}
+
+#branding p {
+	margin: 0;
+	font-size: 13px;
+	color: #d6e4f0;
+}
+
+form {
+	padding: 24px 30px;
+}
+
+/* ===== Tabel ===== */
+#formTable {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #c5d0da;
+}
+
+#formTable td,
+#formTable th {
+	border: 1px solid #c5d0da;
+	padding: 10px 12px;
+}
+
+tr.hlRow th {
+	background-color: #dce8f3;
+	color: #1f4e79;
+	text-align: left;
+	font-size: 15px;
+}
+
+tr.regRow td {
+	background-color: #ffffff;
+}
+
+tr.regRow:hover td {
+	background-color: #f5f9fc;
+}
+
+#formTable td:first-child {
+	width: 32%;
+	font-weight: bold;
+}
+
+td.top {
+	vertical-align: top;
+}
+
+td.center {
+	text-align: center;
+}
+
+/* ===== Label: block untuk label utama, inline untuk pilihan ===== */
+label {
+	display: block;
+	font-weight: bold;
+}
+
+label.inline {
+	display: inline;
+	font-weight: normal;
+	margin-right: 14px;
+}
+
+/* ===== Form controls ===== */
+input,
+select,
+textarea {
+	font-family: inherit; /* samakan typeface dengan halaman */
+	font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+	width: 95%;
+	padding: 7px;
+	border: 1px solid #9fb2c3;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+	outline: none;
+	border-color: #1f4e79;
+	background-color: #f5f9fc;
+}
+
+textarea {
+	resize: vertical;
+}
+
+/* ===== Fieldset ===== */
+fieldset {
+	border: none;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+fieldset legend {
+	padding: 0;
+	margin-bottom: 4px;
+	font-weight: bold;
+	color: #1f4e79;
+}
+
+/* ===== Tombol ===== */
+input[type="submit"] {
+	padding: 10px 30px;
+	background-color: #1f4e79;
+	color: #ffffff;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #2f6ba3;
+}
+
+/* ===== Footer ===== */
+#footer {
+	clear: both;
+	padding: 14px 30px;
+	background-color: #f0f4f8;
+	border-top: 1px solid #c5d0da;
+	font-size: 12px;
+	color: #555555;
+	text-align: center;
+}
